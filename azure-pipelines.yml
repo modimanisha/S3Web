@@ -1,13 +1,4 @@
 # HTML
-- task: CopyFiles@2
-  inputs:
-    SourceFolder: 'styles'
-    Contents: |
-      body{
-      	font-family: sans-serif;
-      }
-    TargetFolder: 'styles'
-    OverWrite: true
 
 # Archive your static HTML project and save it with the build record.
 # Add steps that build, run tests, deploy, and more:
